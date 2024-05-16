@@ -1,5 +1,17 @@
-# Getting started
+# Getting Started with Docker
 
-This repository is a sample application for users following the getting started guide at https://docs.docker.com/get-started/.
+Мой учебный проект, который был создан в процессе изучения
+[Docker Getting Started Guide](https://docs.docker.com/get-started/).
 
-The application is based on the application from the getting started tutorial at https://github.com/docker/getting-started
+Оригинальный репозиторий: [docker/getting-started](https://github.com/docker/getting-started)
+
+## Запуск
+
+* Склонируйте репозиторий
+* Создайте образ Docker с помощью команды:
+  `docker build -t getting-started .` в папке проекта
+* Запустите контейнеры Docker с помощью команды `docker compose up -d`
+* Перейдите на `localhost:3001` в браузере
+* По окончании работы удалите контейнеры с помощью команды
+  `docker compose down`
+
